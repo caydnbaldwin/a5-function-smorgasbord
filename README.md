@@ -56,6 +56,7 @@ purpose:
     adds together 2 numbers and returns the result.
 
 parameters:
+    
     a :
 
         a number (could be integer or float)
