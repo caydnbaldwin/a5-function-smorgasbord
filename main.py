@@ -15,3 +15,10 @@ def sum_two_numbers(a, b):
 
 print(sum_two_numbers(5, 7))
 print(sum_two_numbers(1000.5, -30))
+
+# Function 3: is_even
+def is_even(num):
+    return num % 2 == 0
+
+print(is_even(7))
+print(is_even(120))
