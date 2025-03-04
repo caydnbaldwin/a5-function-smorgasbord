@@ -22,3 +22,13 @@ def is_even(num):
 
 print(is_even(7))
 print(is_even(120))
+
+# Function 4: get_number_parity
+def get_number_parity(num):
+    if is_even(num):
+        return f"{num} is even."
+    else:
+        return f"{num} is odd."
+    
+print(get_number_parity(5))
+print(get_number_parity(10))
