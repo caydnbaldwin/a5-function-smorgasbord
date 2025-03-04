@@ -39,3 +39,19 @@ def fahrenheit_to_celsius(fahrenheit):
 
 print(fahrenheit_to_celsius(32))
 print(fahrenheit_to_celsius(75))
+
+# Function 6: min_max_mean
+def min_max_mean(numbers_list):
+    lowest_number = None
+    highest_number = None
+    total = 0
+
+    for number in numbers_list:
+        if (lowest_number is None) or (number < lowest_number):
+            lowest_number = number
+        elif (highest_number is None) or (number > highest_number):
+            highest_number = number
+        total += number    
+    return [lowest_number, highest_number, (total / len(numbers_list))]
+
+print(min_max_mean([20, 45, 23, 2, 87, 3]))
