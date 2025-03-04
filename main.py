@@ -32,3 +32,10 @@ def get_number_parity(num):
     
 print(get_number_parity(5))
 print(get_number_parity(10))
+
+# Function 5: fahrenheit_to_celsius
+def fahrenheit_to_celsius(fahrenheit):
+    return (fahrenheit - 32) * (5 / 9)
+
+print(fahrenheit_to_celsius(32))
+print(fahrenheit_to_celsius(75))
